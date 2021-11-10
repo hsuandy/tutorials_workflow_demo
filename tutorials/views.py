@@ -21,7 +21,7 @@ from rest_framework.decorators import api_view
 
 
 class index(APIView):
-    renderer_classes = [TemplateHTMLRenderer]
+    #renderer_classes = [TemplateHTMLRenderer]
     #template_name = 'tutorials/index.html'
 
     def get(self, request):
